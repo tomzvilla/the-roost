@@ -1,0 +1,10 @@
+@import url("./styles/fonts.css");
+
+html {
+  font-family: 'Poppins', sans-serif; 
+};
+
+.container {
+  height: 200px;
+  margin: 25rem;
+}
