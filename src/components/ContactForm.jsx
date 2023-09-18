@@ -59,7 +59,7 @@ const ContactForm = () => {
             mensaje: '',
         })
 
-        emailjs.sendForm('service_eihodud', 'template_76wsl4l', form.current, '9QQpEHylEAQw72t-o')
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID,  process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
         .then((result) => {
             if(result.status === 200) {
                 setContact({
