@@ -13,6 +13,9 @@ const ContactForm = () => {
         mensaje: '',
     })
 
+    const [success, setSuccess] = useState(false)
+
+
     const [errors, setErrors] = useState({
         nombre: '',
         email: '',
@@ -22,6 +25,7 @@ const ContactForm = () => {
 
     const sendEmail = (e) => {
         e.preventDefault()
+        setSuccess(false)
         const prevErrors = {...errors}
         if(contact.nombre === '') {
             prevErrors.nombre = 'Debe ingresar un nombre'
@@ -68,6 +72,7 @@ const ContactForm = () => {
                     asunto: '',
                     mensaje: '',
                 })
+                setSuccess(true)
             }
         }, (error) => {
             console.log(error.text);
@@ -124,6 +129,7 @@ const ContactForm = () => {
                 <br/>
                 <br/>
                 {errors.mensaje && <small>{errors.mensaje}</small>}
+                {success &&  <p className='success'> El mensaje se envio con éxito</p>}
                 <button type='submit' className='buttonForm'>Enviar</button>
             </form>
         </section>
