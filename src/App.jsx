@@ -1,15 +1,13 @@
 import './App.css';
 
 import Navbar from './components/Navbar';
-import CarouselPage from './components/CarouselPage';
-import RoostCard from './components/RoostCard';
+import Home from './pages/Home';
 
 const App = () => {
   return (
     <div className="container">
       <Navbar />
-      <CarouselPage />
-      <RoostCard />
+      <Home />
     </div>
   );
 }

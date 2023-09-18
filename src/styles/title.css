@@ -1,0 +1,95 @@
+.titleFondo {
+    background-color: grey;
+    width: 30%;
+    padding: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.titleFondo h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.moreMargin {
+    margin-top: 6rem;
+}
+
+@media screen and (max-width: 800px) {
+
+    .titleFondo {
+        width: 20rem;
+        padding: 2.25rem;
+    }
+
+
+    .titleFondo h2 {
+        color: white;
+        font-size: 1.8rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .titleFondo {
+        width: 20rem;
+        padding: 2.25rem;
+    }
+
+
+    .titleFondo h2 {
+        color: white;
+        font-size: 1.8rem;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    .titleFondo {
+        margin-top: 3rem;
+        width: 55%;
+        padding: 2.25rem;
+    }
+
+
+    .titleFondo h2 {
+        color: white;
+        font-size: 1.8rem;
+    }
+    
+}
+
+@media screen and (max-width: 430px) {
+
+    .titleFondo {
+        margin-top: 7rem;
+        width: 55%;
+        padding: 2.25rem;
+        margin-bottom: 2rem
+    }
+
+
+    .titleFondo h2 {
+        color: white;
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 330px) {
+
+    .titleFondo {
+        margin-top: 6rem;
+        width: 55%;
+        padding: 2.25rem;
+    }
+
+
+    .titleFondo h2 {
+        color: white;
+        font-size: 1.5rem;
+    }
+    
+}
