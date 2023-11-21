@@ -10,6 +10,7 @@ const RoostCard = () => {
                 The Roost Argentina es una empresa familiar fundada en las vastas tierras de Argentina, con su sede central en la pintoresca ciudad de Selva, Santiago del Estero. 
                 Desde nuestros inicios, nos hemos dedicado apasionadamente a brindar a los amantes de la caza una experiencia única en las tierras argentinas.
                 </p>
+                {/* TODO: add call to action */}
             </div>
         </div>
     )

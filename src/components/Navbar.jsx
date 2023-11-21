@@ -4,6 +4,7 @@ import burger from '../assets/hamburger.svg'
 
 import "../styles/navbar.css"
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
@@ -17,21 +18,18 @@ const Navbar = () => {
             </button>
             <div className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
                 <ul>
-                    <li>
-                        <a href="/home">Home</a>
-                    </li>
-                    <li>
-                        <a href="/about">About Us</a>
-                    </li>
-                    <li>
-                        <a href="/lodges">Lodges</a>
-                    </li>
-                    <li>
-                        <a href="/rates">Rates</a>
-                    </li>
-                    <li>
-                        <a href="/contact">Contact</a>
-                    </li>
+                    <Link to={'/home'}>
+                        <li>Home</li>
+                    </Link>
+                    <Link to={'/lodges'}>
+                        <li>Lodges</li>
+                    </Link>
+                    <Link to={'/rates'}>
+                        <li>Rates</li>
+                    </Link>
+                    <Link to={'/contact'}>
+                        <li>Contact</li>
+                    </Link>
                 </ul>
             </div>
         </nav>

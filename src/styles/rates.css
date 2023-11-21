@@ -1,0 +1,42 @@
+.rates-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rates-data > h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 3rem 3rem 1rem 3rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid rgb(218, 163, 45);
+}
+
+.rates-data > h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: -1rem;
+}
+
+.rates-data > small {
+    font-weight: 300;
+    color: rgb(95, 95, 95);
+    margin-top: 1rem;
+}
+
+.rates-data > p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 1rem auto;
+    width: 50%;
+    text-align:  left;
+    line-height: 1.7rem;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .rates-data > p {
+        width: 70%;
+    }
+}

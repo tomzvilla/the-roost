@@ -1,0 +1,65 @@
+.lodge-carousel {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    height: 60vh;
+    width: 80%;
+}
+
+.lodge-carousel-image {
+    height: 60vh;
+    object-fit: cover;
+}
+
+.lodge-carousel-title {
+    align-self: flex-start;
+    width: 90%;
+    margin: 1rem auto;
+    margin-top: 3rem;
+}
+
+.lodge-carousel-title > h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgb(218, 163, 45);
+    display: inline;
+
+}
+
+.lodge-carousel-title--extra {
+    margin-bottom: 4rem;
+    margin-top: -1rem;
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .lodge-carousel-title--extra {
+        margin-top: -4rem;
+    
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+
+    .lodge-carousel-title--extra {
+        margin-top: -3rem;
+    
+    }
+
+    .lodge-carousel {
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    .lodge-carousel-title--extra {
+        margin-top: -1rem;
+    
+    }
+    
+    
+}
