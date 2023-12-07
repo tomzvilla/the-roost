@@ -1,13 +1,16 @@
 import '../styles/footer.css'
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
 
+    const { t } = useTranslation()
+
     return (
         <div className="footer-content">
-            <p>The Roost Argentina</p>
-            <p>Tomas Villarreal</p>
-            <p> +543512598203 </p>
-            <p> © All rights reserved </p>
+            <p>{t('footer.title')}</p>
+            <p>{t('footer.name')}</p>
+            <p> {t('footer.phoneNumber')} </p>
+            <p> {t('footer.copyrights')} </p>
 
         </div>
     )

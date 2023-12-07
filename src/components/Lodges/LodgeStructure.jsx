@@ -1,9 +1,18 @@
-import logo from '../../assets/logo-roost.png'
+import logoTeros from '../../assets/teros.png'
+import logoPicazo from '../../assets/picazo.png'
+import logoMataco from '../../assets/mataco.png'
+
 import "../../styles/lodgeStructure.css"
 
 import LodgeCarousel from './LodgeCarousel'
 import LodgeLocation from './LodgeLocation'
 import LodgeServices from './LodgeServices'
+
+const lodgeImage = {
+    "El Mataco Lodge": logoMataco,
+    "Los Teros Lodge": logoTeros,
+    "Picazo Lodge": logoPicazo,
+}
 
 const LodgeStructure = (props) => {
 
@@ -13,18 +22,18 @@ const LodgeStructure = (props) => {
         <div className="lodge-container">
             <div className='data-container'>
                 <div className="logo-container">
-                    <img src={logo} alt="Logo for lodge" />
+                    <img src={lodgeImage[lodge.name]} alt="Logo for lodge" />
                 </div>
                 <div className="lodge-data">
                     <h2 className='lodge-title'>{lodge.name}</h2>
                     <p>
-                        A sophisticated and luxurious estancia situated on a 2,500 acre ranch, with 150 acres of the pristine untouched Argentine native woodlands, along the Salado River. Located in the Province of Buenos Aires, just a short 2-hour drive from the city, Los Crestones Lodge offers epic duck hunting over decoys combined with perdiz over dogs and spectacular dove shooting. Los Crestones Lodge features 10 elegantly appointed bedrooms, each with King bed and private bath, and can host up to a maximum of 8 hunters, as well as opportunities for non-hunting companions to join.
+                        {lodge.description}
                     </p>
                 </div>
             </div>
-            <LodgeServices />
-            <LodgeCarousel />
-            <LodgeLocation />
+            <LodgeServices services={lodge.services} />
+            <LodgeCarousel imgs={lodge.images} />
+            <LodgeLocation location={lodge.location} />
         </div>
     )
 

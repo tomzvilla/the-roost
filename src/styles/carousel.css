@@ -1,8 +1,11 @@
 .carousel {
     height: 60vh;
+    margin: 0 auto;
 }
 
 .carousel-image {
     height: 60vh;
     object-fit: cover;
+    position: relative;   
+    top: 50%;
 }

@@ -1,14 +1,15 @@
-import logo from '../assets/logo-roost.png'
+import logo from '../assets/outfittersLogo.png'
 import "../styles/roost-card.css"
+import { useTranslation } from 'react-i18next'
 
 const RoostCard = () => {
-    return(
+    const { t } = useTranslation()
+    return (
         <div className='roost-card'>
             <img src={logo} alt="the roost logo" />
             <div>
                 <p>
-                The Roost Argentina es una empresa familiar fundada en las vastas tierras de Argentina, con su sede central en la pintoresca ciudad de Selva, Santiago del Estero. 
-                Desde nuestros inicios, nos hemos dedicado apasionadamente a brindar a los amantes de la caza una experiencia única en las tierras argentinas.
+                {t('home.description')}
                 </p>
                 {/* TODO: add call to action */}
             </div>

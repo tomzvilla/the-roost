@@ -1,0 +1,239 @@
+{
+    "en": {
+        "navigation": {
+            "home": "Home",
+            "lodges": "Lodges",
+            "rates": "Rates",
+            "contact": "Contact Us"
+        },
+        "home": {
+            "gallery": [
+                {"src": "src/assets/img1.jpg"},
+                {"src": "src/assets/img1.jpg"},
+                {"src": "src/assets/img1.jpg"},
+                {"src": "src/assets/img1.jpg"}
+            ],
+            "description": "V&V Outfitters Argentina is a family owned business founded in the small town of Selva, Santiago del Estero in Argentina. Since our beginnings, we have been passionately dedicated to provide hunting enthusiasts with a unique experience in Argentinean lands. We take great pride in sharing our passion for hunting, turning every hunt into an unforgettable adventure. At V&V Outfitters Argentina , hospitality is a priority. Our friendly and attentive staff is dedicated to making sure that every aspect of your experience is flawless, from the organization of the hunt to the comfort of our facilities.",
+            "firstTitle": "Our Lodges",
+            "secondTitle": "Contact Us"
+        },
+        "footer": {
+            "title": "V&V Outfitters Argentina",
+            "name": "Tomas Villarreal",
+            "phoneNumber": "+543512598203",
+            "copyrights": "© All rights reserved"
+        },
+        "contact": {
+            "name": "Name",
+            "email": "Email",
+            "subject": "Subject",
+            "message": "Message",
+            "button": "Send",
+            "errorMessages": {
+                "name": "You must type a name",
+                "email": "You must type a email",
+                "invalidEmail": "You must type a valid email",
+                "subject": "You must type a subject",
+                "message": "You must type a message"
+            },
+            "success": "The message was sent successfully"
+        },
+        "lodgePage": {
+            "services": "Services",
+            "gallery": "Gallery",
+            "location": "Location"
+        },
+        "ratesPage": {
+            "title": "Rates",
+            "commentary": "Prices are in US$ and per person",
+            "included": "Included",
+            "notIncluded": "Not Included"
+        },
+        "lodges": [
+            {
+                "name": "Los Teros Lodge",
+                "description": "Los Teros Lodge is a quiet and comfortable ranch located in the city of Selva Santiago del Estero, located just behind a mountain which serves as a roost for all kinds of birds. Our lodge has 4 rooms and room for up to 10 hunters, with a large main lounge with a fireplace, and a rustic bar where hunters can relax after a great day of hunting. Los Teros Lodge is perfectly located, very close to the hunting spots, allowing to maximize the time spent enjoying this hobby.",
+                "locationDescription": "Location: Santiago del Estero, Argentina",
+                "hunts": [{"src": "duckImg"}, {"src": "perdizImg"}, {"src": "doveImg"}, {"src": "pigeonImg"}],
+                "services": [
+                    {
+                        "name": "Gun Rental",
+                        "description": "12 & 20 ga.",
+                        "imgSrc": "rifle"
+                    },
+                    {
+                        "name": "Lodging",
+                        "description": "10 hunters",
+                        "imgSrc": "bed"
+                    },
+                    {
+                        "name": "Outfitter",
+                        "description": "Professional Outfitters",
+                        "imgSrc": "outfitter"
+                    },
+                    {
+                        "name": "Huntings",
+                        "description": "Pidgeon, Dove, Perdiz and Duck",
+                        "imgSrc": "hunters"
+                    }
+                ],
+                "images": [
+                    {"src": "teros1"},
+                    {"src": "teros3"},
+                    {"src": "teros4"},
+                    {"src": "teros5"},
+                    {"src": "teros11"},
+                    {"src": "teros6"},
+                    {"src": "teros7"},
+                    {"src": "teros8"},
+                    {"src": "teros9"},
+                    {"src": "teros12"},
+                    {"src": "teros10"}
+                ],
+                "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4236.846511459971!2d-62.0725667999908!3d-29.779912296002443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943687b65f8f338f%3A0x1f274b9303e4919c!2sLos%20Teros%20Lodge!5e1!3m2!1ses-419!2sar!4v1701375259909!5m2!1ses-419!2sar",
+                "rates": {
+                    "description": "Rates depend on the month of the season in which the package is put together, the number of hunters in the group and availability. We customize packages to provide the best possible experience for each group, always dedicating 100% of our staff and our time to a single group, providing a unique hunting experience. Contact us so we can put together a package just for you and your group!.",
+                    "season": "All year round",
+                    "included": [
+                        {"service": "Lodging and facilities"},
+                        {"service": "Meals, all wines, beer and soft drinks (open bar for national drinks)"},
+                        {"service": "Reception at the airport"},
+                        {"service": "Assistance if bringing guns (Gun entry permits are separte)"},
+                        {"service": "Transfers to and from airport and fields"},
+                        {"service": "Professional outfitters and host"},
+                        {"service": "Gun cleaning, translator and laundry"},
+                        {"service": "Payment to landowners for hunting rights"}
+                    ],
+                    "notIncluded": [
+                        {"service": "Airfares or any charter flights"},
+                        {"service": "Hunting license"},
+                        {"service": "Hotels in Buenos Aires"},
+                        {"service": "Gun entry permits"},
+                        {"service": "Gun Rental"},
+                        {"service": "Gratuities for guides and house staff"}
+                    ]
+                }
+            },
+            {
+                "name": "Picazo Lodge",
+                "description": "Picazo Lodge is a rustic complex of cabins that can accommodate up to 8 hunters, it has all the amenities for you to have a great stay. It is located in a very small town in Santa Fe, Argentina named Saladero Cabal, and it is an excellent place for duck hunting, since it is located meters away from a lake, and the access to the port is just behind the complex. This allows you to walk to the port early in the morning and enjoy a great day of duck hunting, getting to know the beautiful native species of Argentina.",
+                "locationDescription": "Location: Santa Fe, Argentina",
+                "hunts": [{"src": "duckImg"}],
+                "services": [
+                    {
+                        "name": "Gun Rental",
+                        "description": "12 & 20 ga.",
+                        "imgSrc": "rifle"
+                    },
+                    {
+                        "name": "Lodging",
+                        "description": "6 hunters",
+                        "imgSrc": "bed"
+                    },
+                    {
+                        "name": "Outfitter",
+                        "description": "Professional Outfitters",
+                        "imgSrc": "outfitter"
+                    },
+                    {
+                        "name": "Huntings",
+                        "description": "Ducks",
+                        "imgSrc": "hunters"
+                    }
+                ],
+                "images": [
+                    {"src": "picazo1"},
+                    {"src": "picazo2"},
+                    {"src": "picazo3"},
+                    {"src": "picazo4"},
+                    {"src": "picazo5"},
+                    {"src": "picazo6"}
+                ],
+                "location": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1783.087013237721!2d-60.03638803060886!3d-30.883096790441712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDUyJzU4LjMiUyA2MMKwMDInMDguOCJX!5e1!3m2!1ses-419!2sar!4v1701375874641!5m2!1ses-419!2sar",
+                "rates": {
+                    "description": "Rates depend on the month of the season in which the package is put together, the number of hunters in the group and availability. We customize packages to provide the best possible experience for each group, always dedicating 100% of our staff and our time to a single group, providing a unique hunting experience. Contact us so we can put together a package just for you and your group!",
+                    "season": "Season 2024 - April to August",
+                    "included": [
+                        {"service": "Lodging and facilities"},
+                        {"service": "Meals, all wines, beer and soft drinks (open bar for national drinks)"},
+                        {"service": "Reception at the airport"},
+                        {"service": "Assistance if bringing guns (Gun entry permits are separte)"},
+                        {"service": "Transfers to and from airport and fields"},
+                        {"service": "Professional outfitters and host"},
+                        {"service": "Gun cleaning, translator and laundry"},
+                        {"service": "Payment to landowners for hunting rights"}
+                    ],
+                    "notIncluded": [
+                        {"service": "Airfares or any charter flights"},
+                        {"service": "Hunting license"},
+                        {"service": "Hotels in Buenos Aires"},
+                        {"service": "Gun entry permits"},
+                        {"service": "Gun Rental"},
+                        {"service": "Gratuities for guides and house staff"}
+                    ]
+                }
+            },
+            {
+                "name": "El Mataco Lodge",
+                "description": "Mataco Lodge is a comfortable country house with 2 buildings, a house with all facilities, kitchen, dining room, a large living room, with satellite tv, where hunters can enjoy the open bar after a great argentinian dinner. Enjoy the best argentinian wines, asado meats, and the best homemade desserts. The second bulding contained the guest rooms, double bedrooms each with its private bathroom plus independent heating and A/C units. The lodge has the privilege to be located in one of the three best microclimates in the world. Little rain (600 mm/year), sunny days and mild temperatures.",
+                "locationDescription": "Location: Córdoba, Argentina",
+                "hunts": [{"src": "doveImg"}, {"src": "pigeonImg"}],
+                "services": [
+                    {
+                        "name": "Gun Rental",
+                        "description": "12 & 20 ga.",
+                        "imgSrc": "rifle"
+                    },
+                    {
+                        "name": "Lodging",
+                        "description": "10 hunters",
+                        "imgSrc": "bed"
+                    },
+                    {
+                        "name": "Outfitter",
+                        "description": "Professional Outfitters",
+                        "imgSrc": "outfitter"
+                    },
+                    {
+                        "name": "Huntings",
+                        "description": "Doves and Pigeons",
+                        "imgSrc": "hunters"
+                    }
+                ],
+                "rates": {
+                    "description": "Rates depend on the month of the season in which the package is put together, the number of hunters in the group and availability. We customize packages to provide the best possible experience for each group, always dedicating 100% of our staff and our time to a single group, providing a unique hunting experience. Contact us so we can put together a package just for you and your group!",
+                    "season": "Season 2024 - April to October",
+                    "included": [
+                        {"service": "Lodging and facilities"},
+                        {"service": "Meals, all wines, beer and soft drinks (open bar for national drinks)"},
+                        {"service": "Reception at the airport"},
+                        {"service": "Assistance if bringing guns (Gun entry permits are separte)"},
+                        {"service": "Transfers to and from airport and fields"},
+                        {"service": "Professional outfitters and host"},
+                        {"service": "Gun cleaning, translator and laundry"},
+                        {"service": "Payment to landowners for hunting rights"}
+                    ],
+                    "notIncluded": [
+                        {"service": "Airfares or any charter flights"},
+                        {"service": "Hunting license"},
+                        {"service": "Hotels in Buenos Aires"},
+                        {"service": "Gun entry permits"},
+                        {"service": "Gun Rental"},
+                        {"service": "Gratuities for guides and house staff"}
+                    ]
+                },
+                "images": [
+                    {"src": "mataco4"},
+                    {"src": "mataco1"},
+                    {"src": "mataco2"},
+                    {"src": "mataco3"},
+                    {"src": "mataco5"},
+                    {"src": "mataco6"},
+                    {"src": "mataco7"},
+                    {"src": "mataco8"}
+                ],
+                "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5909.252507034747!2d-65.02974599736726!3d-30.850003565597724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942dcb738988c8e1%3A0x7eaaf3d689d3c7aa!2sEl%20Mataco%20Lodge!5e1!3m2!1ses-419!2sar!4v1701375163723!5m2!1ses-419!2sar"
+            }
+        ]
+    }
+}

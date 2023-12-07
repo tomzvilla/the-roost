@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async"
 const Metadata = (props) => {
     return (
         <Helmet>
-            <title> The Roost | {props.title} </title>
+            <title> V&V Argentina Outfitters | {props.title} </title>
         </Helmet>
     )
 }

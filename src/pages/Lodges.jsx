@@ -3,16 +3,19 @@ import LodgeStructure from "../components/Lodges/LodgeStructure"
 import Metadata from "../components/Metadata"
 // hooks
 import { useState } from "react"
+import { useTranslation } from "react-i18next"
 const Lodges = () => {
 
-    const [currentLodge, setCurrentLodge] = useState({
-        name: 'The Roost 1'
-    })
+    const { t } = useTranslation()
 
+    const lodges = t('lodges', { returnObjects: true });
+
+    const [currentLodge, setCurrentLodge] = useState(lodges[0])
+    
     return (
         <>
-            <Metadata title={'Lodges'}/>
-            <LodgeSelector lodges={[{name: 'The Roost 1'},{name: 'The Roost 2'},{name: 'The Roost 3'}]} setCurrentLodge={setCurrentLodge}/>
+            <Metadata title={t('navigation.lodges')}/>
+            <LodgeSelector lodges={lodges} setCurrentLodge={setCurrentLodge}/>
             <LodgeStructure lodge={currentLodge} />
 
         </>

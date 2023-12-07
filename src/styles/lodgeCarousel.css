@@ -2,7 +2,7 @@
     margin-top: 3rem;
     margin-bottom: 5rem;
     height: 60vh;
-    width: 80%;
+    width: 90%;
 }
 
 .lodge-carousel-image {
@@ -29,16 +29,13 @@
 .lodge-carousel-title--extra {
     margin-bottom: 4rem;
     margin-top: -1rem;
-
 }
 
 @media screen and (max-width: 1200px) {
 
     .lodge-carousel-title--extra {
         margin-top: -4rem;
-    
     }
-    
 }
 
 @media screen and (max-width: 700px) {
@@ -51,7 +48,14 @@
     .lodge-carousel {
         width: 90%;
     }
-    
+}
+
+@media screen and (max-width: 600px) {
+
+    .lodge-carousel {
+        height: 60vh;
+        width: 100vw;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -60,6 +64,4 @@
         margin-top: -1rem;
     
     }
-    
-    
 }

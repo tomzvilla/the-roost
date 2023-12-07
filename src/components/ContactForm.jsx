@@ -1,10 +1,12 @@
 import '../styles/contactForm.css'
 import { useState, useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import { useTranslation } from 'react-i18next'
 
 const ContactForm = () => {
 
     const form = useRef();
+    const { t } = useTranslation()
 
     const [contact, setContact] = useState({
         nombre: '',
@@ -28,25 +30,25 @@ const ContactForm = () => {
         setSuccess(false)
         const prevErrors = {...errors}
         if(contact.nombre === '') {
-            prevErrors.nombre = 'Debe ingresar un nombre'
+            prevErrors.nombre = t('contact.errorMessages.name')
         } else {
             prevErrors.nombre = ''
         }
         if(contact.email === '') {
-            prevErrors.email = 'Debe ingresar un email'
+            prevErrors.email = t('contact.errorMessages.email')
         } else if(!new RegExp(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i).test(contact.email)){
-            prevErrors.email = 'Debe ingresar un email valido'
+            prevErrors.email = t('contact.errorMessages.invalidEmail')
         }
         else {
             prevErrors.email = ''
         }
         if(contact.asunto === '') {
-            prevErrors.asunto = 'Debe ingresar un asunto'
+            prevErrors.asunto = t('contact.errorMessages.subject')
         } else {
             prevErrors.asunto = ''
         }
         if(contact.mensaje === '') {
-            prevErrors.mensaje = 'Debe ingresar un mensaje'
+            prevErrors.mensaje = t('contact.errorMessages.message')
         } else {
             prevErrors.mensaje = ''
         }
@@ -93,7 +95,7 @@ const ContactForm = () => {
         <section className='contact'>
             <form onSubmit={sendEmail} ref={form} className='contactForm'>
                 <label>
-                    Nombre <span>&#x2a;</span>
+                    {t('contact.name')} <span>&#x2a;</span>
                     <input 
                         type="text"
                         name='nombre'
@@ -103,7 +105,7 @@ const ContactForm = () => {
                 </label>
                 {errors.nombre && <small>{errors.nombre}</small>}
                 <label>
-                    Email <span>&#x2a;</span>
+                    {t('contact.email')} <span>&#x2a;</span>
                     <input 
                         type="email"
                         name='email'
@@ -113,7 +115,7 @@ const ContactForm = () => {
                 </label>
                 {errors.email && <small>{errors.email}</small>}
                 <label>
-                    Asunto <span>&#x2a;</span>
+                    {t('contact.subject')} <span>&#x2a;</span>
                     <input 
                         type="text" 
                         name='asunto'
@@ -123,14 +125,14 @@ const ContactForm = () => {
                 </label>
                 {errors.asunto && <small>{errors.asunto}</small>}
                 <label>
-                    Mensaje <span>&#x2a;</span>
+                    {t('contact.message')} <span>&#x2a;</span>
                     <textarea name="mensaje" cols="30" rows="5" value={contact.mensaje} onChange={handleChange}></textarea>
                 </label>
                 <br/>
                 <br/>
                 {errors.mensaje && <small>{errors.mensaje}</small>}
-                {success &&  <p className='success'> El mensaje se envio con éxito</p>}
-                <button type='submit' className='buttonForm'>Enviar</button>
+                {success &&  <p className='success'> {t('contact.success')}</p>}
+                <button type='submit' className='buttonForm'>{t('contact.button')}</button>
             </form>
         </section>
     )

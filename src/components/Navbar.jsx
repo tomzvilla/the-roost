@@ -1,13 +1,16 @@
 // Navbar.js 
-import logo from '../assets/logo-roost.png'
+import logo from '../assets/outfittersLogo.png'
 import burger from '../assets/hamburger.svg'
 
 import "../styles/navbar.css"
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
+    const { t } = useTranslation()
+
     return (
         <nav className="navigation">
             <a href="/" className="brand-name">
@@ -19,16 +22,16 @@ const Navbar = () => {
             <div className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
                 <ul>
                     <Link to={'/home'}>
-                        <li>Home</li>
+                        <li>{t('navigation.home')}</li>
                     </Link>
                     <Link to={'/lodges'}>
-                        <li>Lodges</li>
+                        <li>{t('navigation.lodges')}</li>
                     </Link>
                     <Link to={'/rates'}>
-                        <li>Rates</li>
+                        <li>{t('navigation.rates')}</li>
                     </Link>
                     <Link to={'/contact'}>
-                        <li>Contact</li>
+                        <li>{t('navigation.contact')}</li>
                     </Link>
                 </ul>
             </div>

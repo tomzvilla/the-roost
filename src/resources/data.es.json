@@ -1,0 +1,158 @@
+{
+    "es": {
+        "navigation": {
+            "home": "Inicio",
+            "lodges": "Lodges",
+            "rates": "Tarifas",
+            "contact": "Contáctanos"
+        },
+        "home": {
+            "gallery": [
+                {"src": "src/assets/img1.jpg"},
+                {"src": "src/assets/img1.jpg"},
+                {"src": "src/assets/img1.jpg"},
+                {"src": "src/assets/img1.jpg"}
+            ],
+            "description": "V&V Argentina Outfitters es una empresa familiar fundada en las vastas tierras de Argentina, con su sede central en la pintoresca ciudad de Selva, Santiago del Estero. Desde nuestros inicios, nos hemos dedicado apasionadamente a brindar a los amantes de la caza una experiencia única en las tierras argentinas.",
+            "firstTitle": "Nuestros Lodges",
+            "secondtTitle": "Contáctanos"
+        },
+        "footer": {
+            "title": "V&V Argentina Outfitters",
+            "name": "Tomas Villarreal",
+            "phoneNumber": "+543512598203",
+            "copyrights": "© All rights reserved"
+        },
+        "contact": {
+            "name": "Nombre",
+            "email": "Email",
+            "subject": "Asunto",
+            "message": "Mensaje",
+            "button": "Enviar",
+            "errorMessages": {
+                "name": "Debe ingresar un nombre",
+                "email": "Debe ingresar un email",
+                "invalidEmail": "Debe ingresar un email válido",
+                "subject": "Debe ingresar un asunto",
+                "message": "Debe ingresar un mensaje"
+            },
+            "success": "El mensaje se envio con éxito"
+        },
+        "lodgePage": {
+            "services": "Services",
+            "gallery": "Gallery",
+            "location": "Location"
+        },
+        "lodges": [
+            {
+                "name": "Los Teros Lodge",
+                "description": "Una sofisticada y lujosa estancia situada en un rancho de 2.500 acres, con 150 acres de los prístinos bosques nativos argentinos vírgenes, a lo largo del río Salado. Situado en la provincia de Buenos Aires, a sólo 2 horas en coche de la ciudad, Los Crestones Lodge ofrece épica caza de patos sobre señuelos combinada con perdiz sobre perros y espectacular cacería de palomas. Los Crestones Lodge cuenta con 10 habitaciones elegantemente decoradas, cada una con cama King y baño privado, y puede alojar hasta un máximo de 8 cazadores, así como oportunidades para que los acompañantes no cazadores se unan.",
+                "locationDescription": "Ubicación: Santiago del Estero, Argentina",
+                "hunts": [{"src": "duckImg"}, {"src": "perdizImg"}, {"src": "doveImg"}],
+                "services": [
+                    {
+                        "name": "Alquiler de escopetas",
+                        "description": "12 & 20 ga.",
+                        "imgSrc": "rifle"
+                    },
+                    {
+                        "name": "Hospedaje",
+                        "description": "10 cazadores",
+                        "imgSrc": "bed"
+                    },
+                    {
+                        "name": "Anfitrión",
+                        "description": "Anfitriones profesionales",
+                        "imgSrc": "outfitter"
+                    },
+                    {
+                        "name": "Cacerías",
+                        "description": "Paloma grande, paloma chica y pato",
+                        "imgSrc": "hunters"
+                    }
+                ],
+                "images": [
+                    {"src": "src/assets/img1.jpg"},
+                    {"src": "src/assets/img1.jpg"},
+                    {"src": "src/assets/img1.jpg"},
+                    {"src": "src/assets/img1.jpg"}
+                ],
+                "location": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27698.626156050464!2d-62.10669339905908!3d-29.79724734029595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1700355750006!5m2!1ses-419!2sar"
+            },
+            {
+                "name": "Picasso Lodge",
+                "description": "Bienvenido al Rancho Santa Fe Retreat, un tranquilo y lujoso refugio situado en el corazón de la pintoresca región de Santa Fe. Este exclusivo lodge ofrece una experiencia única que combina la serenidad del entorno natural con servicios de primera clase.",
+                "locationDescription": "Ubicación: Santa Fe, Argentina",
+                "hunts": [{"src": "duckImg"}, {"src": "perdizImg"}],
+                "services": [
+                    {
+                        "name": "Alquiler de escopetas",
+                        "description": "12 & 20 ga.",
+                        "imgSrc": "rifle"
+                    },
+                    {
+                        "name": "Hospedaje",
+                        "description": "10 cazadores",
+                        "imgSrc": "bed"
+                    },
+                    {
+                        "name": "Anfitrión",
+                        "description": "Anfitriones profesionales",
+                        "imgSrc": "outfitter"
+                    },
+                    {
+                        "name": "Cacerías",
+                        "description": "Paloma grande, paloma chica y pato",
+                        "imgSrc": "hunters"
+                    }
+                ],
+                "images": [
+                    {"src": "src/assets/img1.jpg"},
+                    {"src": "src/assets/img1.jpg"},
+                    {"src": "src/assets/img1.jpg"},
+                    {"src": "src/assets/img1.jpg"}
+                ],
+                "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13651.816626915323!2d-60.161686687150755!3d-31.194284432807464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b494f64c8aa973%3A0x3722a5388eedc5a6!2sCayast%C3%A1%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1700536595315!5m2!1ses-419!2sar"
+            },
+            {
+                "name": "El Mataco Lodge",
+                "description": "Mataco Lodge es una confortable casa de campo con 2 instalaciones, una casa con todas las comodidades, cocina, comedor, una gran sala de estar, con tv satelital, donde los cazadores pueden disfrutar de la barra libre después de una gran cena argentina. Disfrute de los mejores vinos argentinos, carnes asadas, y los mejores postres caseros. En el segundo edificio se encuentran las habitaciones de los huéspedes, habitaciones dobles cada una con su baño privado, además de calefacción y aire acondicionado independientes. El lodge tiene el privilegio de estar situado en uno de los tres mejores microclimas del mundo. Poca lluvia (600 mm/año), días soleados y temperaturas suaves.",
+                "locationDescription": "Ubicación: Córdoba, Argentina",
+                "hunts": [{"src": "doveImg"}, {"src": "pigeonImg"}, {"src": "perdizImg"}],
+                "services": [
+                    {
+                        "name": "Alquiler de escopetas",
+                        "description": "12 & 20 ga.",
+                        "imgSrc": "rifle"
+                    },
+                    {
+                        "name": "Hospedaje",
+                        "description": "10 cazadores",
+                        "imgSrc": "bed"
+                    },
+                    {
+                        "name": "Anfitrión",
+                        "description": "Anfitriones profesionales",
+                        "imgSrc": "outfitter"
+                    },
+                    {
+                        "name": "Cacerías",
+                        "description": "Paloma grande, paloma chica y pato",
+                        "imgSrc": "hunters"
+                    }
+                ],
+                "images": [
+                    {"src": "mataco1"},
+                    {"src": "mataco2"},
+                    {"src": "mataco3"},
+                    {"src": "mataco4"},
+                    {"src": "mataco5"},
+                    {"src": "mataco6"},
+                    {"src": "mataco7"},
+                    {"src": "mataco8"}
+                ],
+                "location": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27698.626156050464!2d-62.10669339905908!3d-29.79724734029595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1700355750006!5m2!1ses-419!2sar"
+            }
+        ]
+    }
+}
